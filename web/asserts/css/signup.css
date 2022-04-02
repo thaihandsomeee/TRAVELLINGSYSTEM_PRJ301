@@ -1,0 +1,259 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 28, 2021, 10:57:36 PM
+    Author     : HP
+*/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 28, 2021, 7:31:01 PM
+    Author     : HP
+*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+:root {
+    --main-color: #02BE6E;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+    background-color: #dfe6e9;
+    border-radius: 5px;
+    margin-top: 5%;
+    padding: 10px;
+}
+
+.form-login {
+    width: 100%;
+    min-height: 460px;
+    display: flex;
+    position: relative;
+}
+
+@keyframes modalFadeInRight {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(100%);
+    }
+}
+
+@keyframes modalFadeInLeft {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+.moveRight {
+    animation: modalFadeInRight ease 1s;
+}
+
+.moveLeft {
+    animation: modalFadeInLeft ease 1s;
+}
+
+
+/* SIGNIN */
+
+.signin {
+    width: 50%;
+    height: auto;
+    background-color: #ffffff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signin button {
+    width: 33px;
+    height: 33px;
+    border: 1px #b2bec3 solid;
+    border-radius: 16.5px;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.signin button:focus {
+    outline: none;
+}
+
+.signin button:hover {
+    background-color: var(--main-color);
+    color: #ffffff;
+}
+
+button i {
+    margin-top: 2px;
+}
+
+.signin-p {
+    margin: 10px 0 20px 0;
+    font-size: 14px;
+    color: #636e72;
+}
+
+.signin-input {
+    margin-bottom: 20px;
+    height: 40px;
+    width: 250px;
+    padding-left: 20px;
+    background-color: #dfe6e9;
+    border: 1px #dfe6e9 solid;
+}
+
+.signin-remember {
+    margin: 10px 0 20px 0;
+    font-size: 15px;
+    color: #636e72;
+}
+
+.signin-button {
+    margin-top: 30px;
+    width: 150px;
+    height: 40px;
+    border: 1px var(--main-color) solid;
+    border-radius: 40px;
+    background-color: var(--main-color);
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.signin-button:hover {
+    background-color: var(--main-color);
+    opacity: 0.8;
+}
+
+
+/* SIGNUP */
+
+.signup {
+    width: 50%;
+    height: auto;
+    background-color: #ffffff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup button {
+    width: 33px;
+    height: 33px;
+    border: 1px #b2bec3 solid;
+    border-radius: 16.5px;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.signup button:focus {
+    outline: none;
+}
+
+.signup button:hover {
+    background-color: var(--main-color);
+    color: #ffffff;
+}
+
+button i {
+    margin-top: 2px;
+}
+
+.signup-p {
+    margin: 10px 0 20px 0;
+    font-size: 14px;
+    color: #636e72;
+}
+
+.signup-input {
+    margin-bottom: 20px;
+    height: 40px;
+    width: 250px;
+    padding-left: 20px;
+    background-color: #dfe6e9;
+    border: 1px #dfe6e9 solid;
+}
+
+.signup-button {
+    margin-top: 30px;
+    width: 150px;
+    height: 40px;
+    border: 1px var(--main-color) solid;
+    border-radius: 40px;
+    background-color: var(--main-color);
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.signup-button:hover {
+    background-color: var(--main-color);
+    opacity: 0.8;
+}
+
+
+/* HELLO */
+
+#hello {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background-color: var(--main-color);
+    text-align: center;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    transform: translateX(0);
+}
+
+#hello p {
+    margin: 0 60px;
+}
+
+#hello button {
+    width: 150px;
+    height: 40px;
+    border: 1px #ffffff solid;
+    border-radius: 40px;
+    background-color: var(--main-color);
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 45px;
+    cursor: pointer;
+}
+
+#hello button:focus {
+    outline: none;
+}
+
+#hello button:hover {
+    background-color: #ffffff;
+    color: var(--main-color);
+}

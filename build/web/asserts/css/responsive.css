@@ -1,0 +1,79 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 31, 2021, 9:35:31 PM
+    Author     : HP
+*/
+
+/* PC */
+
+@media (min-width:1024px) {
+    .pc {
+        display: block;
+    }
+}
+
+
+/* Tablet & Mobile */
+
+
+/* Tablet */
+
+@media (max-width:1023px) and (min-width:740px) {
+    .tablet {
+        display: block;
+    }
+    .m-col-full {
+        width: 100% !important;
+    }
+    .m-col-half {
+        width: 50% !important;
+    }
+    .tour-content {
+        display: block;
+    }
+    .tour-content__img {
+        width: 100%;
+    }
+    .tour-content__details {
+        width: 100%;
+        padding-bottom: 60px;
+    }
+    .footer__form-contact--head--title:last-child {
+        display: none;
+    }
+}
+
+@media (max-width:739px) {
+    .s-full-width {
+        width: 100% !important;
+    }
+    .s-col-full {
+        width: 100% !important;
+    }
+    .slider__description {
+        display: none;
+    }
+    .slider__search-form {
+        display: none;
+    }
+    .tour-content {
+        display: block;
+    }
+    .tour-content__img {
+        width: 100%;
+    }
+    .tour-content__details {
+        width: 100%;
+        padding-bottom: 60px;
+    }
+    .footer__advise--advise-title {
+        display: none;
+    }
+    .footer__form-contact--head--title {
+        display: none;
+    }
+}
